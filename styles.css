@@ -1,22 +1,20 @@
 .sidebar {
     display: flex;
-    justify-content: flex-start;
-   
-    
+    justify-content: flex-start;   
+    max-width: 600px; 
 }
 
 .top-sidebar {
     border: solid #5271FF 1px;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
-    height: 150px;
-    width: 200px;
+    height: 20%;
+    width: 50%;
     background-color: #5271FF;
     padding-top: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
 }
 
 .top-sidebar > img {
@@ -25,47 +23,119 @@
     height: 100px;
 }
 
-
-h2 {
-    margin-top: 50px;
-    border: black solid 1px;
-    height: 30px;
-    font-family: 'Open Sans', sans-serif;
+.sidebar- {
+    border: solid #5271FF 1px;
+    background-color: #5271FF;
+    width: 50%;
+    height: 80%;
 }
 
-p{
-    margin-left: 5px;
-    font-size: 13px;
+h2 {
     font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 100%;
+    font-weight: 600;
+}
+
+.txt-sidebar2 {
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+
+.sidebar p{
+    margin-left: 3%;
+    font-size: 80%;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
 }
 
 .txt-sidebar {
     color: white;
 }
 
-.sidebar- {
-    border: solid #5271FF 1px;
-    background-color: #5271FF;
-    width: 200px;
-    height: 500px;
+.icone {
+    width: 13%;
+    height: auto;
+    margin-left: 3%;
+}
+
+.icone1 {
+    margin-left: 20%;
+    margin-right: auto;
+}
+
+.icone2 {
+    margin-left: 8%;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.icone-hobbies {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.basket {
+    width: 20%;
+    height: 20%;
+    margin-left: 5%;
+}
+
+.guitar{
+    width: 20%;
+    margin-left: 5%;
+}
+
+.camera{
+    width: 30%;
+    margin-left: 5%;
+}
+
+.icone4{
+    color: white;
+}
+
+.age{
+    margin-left: 10%;
+    float: left;
+    margin-right: 20%;
+}
+
+.car {
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+}
+#icone-car {
+    float: left;
+    margin-right: 20%;
+}
+
+.place {
+    margin-left: 10%;
+}
+#icone-place {
+    float: left;
+}
+#txt-place1{
     display: flex;
     justify-content: center;
-    order: initial;
-    flex-flow: row wrap;
 }
 
-.group-icone {
+#txt-place2{
     display: flex;
-    align-items: flex-start;
-    float: inline-start;
+    justify-content: center;
 }
 
-.icone {
-    width: 20px;
-    height: 20px;
+.mail {
     display: flex;
-    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+#icone-mail {
     float: left;
-    align-items: flex-start;
-    margin-top: ;
+    width: 15%;
 }
