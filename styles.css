@@ -1,27 +1,82 @@
-.container {
+body {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
     background-color: white;
+    gap: 20px;
+    
 }
 
 .sidebar {
-    display: flex;
-    justify-content: flex-start; 
-    min-width: 450px;
-    max-width: 600px;
-    flex: 1;
+    max-width: 300px;
     float: left;
 }
 
-.txt-sidebar {
-    margin-bottom: 15%;
+.main {
+   font-family: 'Open Sans', sans-serif;
 }
 
-.main {
+.main h1{
+    font-weight: 700;
+}
+
+.main h2 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.main p {
+    font-weight: 300;
+    margin-top: 0%;
+    margin-left: 30px;
+}
+
+ul {
+    font-weight: 300;
+    font-size: smaller;
+}
+
+.part {
+    width: 200%;
+    height: 30px;
+    background-color: #D8D7D7;
+}
+
+.paille {
     display: flex;
-    border: solid;
-    justify-content: flex-start;
+    align-items: center;
+}
+#paille {
+    float: left;
+    width: 60px;
+    margin-right: 20px;
+}
+
+.agrial {
+    display: flex;
+    align-items: center;
+}
+#agrial {
+    float: left;
+    width: 80px;
+}
+
+.origen{
+    display: flex;
+    align-items: center;
+}
+#origen{
+    float: left;
+    width: 80px;
+    margin-right: 10px;
+}
+
+.woof{
+    display: flex;
+    align-items: center;
+}
+#woof{
+    float: left;
+    width: 60px;
+    margin-right: 10px;
 }
 
 .top-sidebar {
@@ -29,7 +84,7 @@
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
     height: 20%;
-    width: 50%;
+    width: 100%;
     background-color: #5271FF;
     padding-top: 20px;
     display: flex;
@@ -46,11 +101,11 @@
 .sidebar- {
     border: solid #5271FF 1px;
     background-color: #5271FF;
-    width: 50%;
-    height: 80%;
+    width: 100%;
+    height: auto;
 }
 
-h2 {
+.sidebar h2 {
     font-family: 'Open Sans', sans-serif;
     display: flex;
     justify-content: center;
