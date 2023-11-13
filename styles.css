@@ -1,7 +1,22 @@
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
 .sidebar {
     display: flex;
-    justify-content: flex-start;   
-    max-width: 600px; 
+    justify-content: flex-start; 
+    min-width: 450px;
+    max-width: 600px;
+    flex: 1;
+    float: left;
+}
+
+.main {
+    display: flex;
+    border: solid;
+    justify-content: flex-start;
 }
 
 .top-sidebar {
@@ -40,7 +55,7 @@ h2 {
 }
 
 .txt-sidebar2 {
-    margin-top: 5%;
+    margin-top: 10%;
     margin-bottom: 8%;
 }
 
@@ -139,3 +154,4 @@ h2 {
     float: left;
     width: 15%;
 }
+
