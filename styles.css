@@ -169,6 +169,10 @@ body {
     font-size: 20px;
 }
 
+h3 {
+    background-color: #D8D7D7;
+}
+
 .main p {
     font-weight: 300;
     margin-top: 0%;
