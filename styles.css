@@ -1,83 +1,17 @@
 body {
-    display: flex;
     background-color: white;
-    gap: 20px;
-    
 }
 
-.sidebar {
-    max-width: 300px;
-    float: left;
+.container {
     border: solid;
 }
 
-.main {
-   font-family: 'Open Sans', sans-serif;
-}
+/* Sidebar */
 
-.main h1{
-    font-weight: 700;
-}
-
-.main h2 {
-    font-weight: 600;
-    font-size: 20px;
-}
-
-.main p {
-    font-weight: 300;
-    margin-top: 0%;
-    margin-left: 30px;
-}
-
-ul {
-    font-weight: 300;
-    font-size: smaller;
-}
-
-.part {
-    width: 200%;
-    height: 30px;
-    background-color: #D8D7D7;
-}
-
-.paille {
-    display: flex;
-    align-items: center;
-}
-#paille {
+.sidebar  {
+    max-width: 300px;
     float: left;
-    width: 60px;
-    margin-right: 20px;
-}
-
-.agrial {
-    display: flex;
-    align-items: center;
-}
-#agrial {
-    float: left;
-    width: 80px;
-}
-
-.origen{
-    display: flex;
-    align-items: center;
-}
-#origen{
-    float: left;
-    width: 80px;
-    margin-right: 10px;
-}
-
-.woof{
-    display: flex;
-    align-items: center;
-}
-#woof{
-    float: left;
-    width: 60px;
-    margin-right: 10px;
+    border: solid;
 }
 
 .top-sidebar {
@@ -220,3 +154,83 @@ ul {
     width: 15%;
 }
 
+/* Fin Sidebar */
+
+.main {
+   font-family: 'Open Sans', sans-serif;
+}
+
+/*Jean-Baptiste Ketele*/
+.main h1{
+    font-weight: 700;
+}
+
+/* Job */
+.main h2 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.main p {
+    font-weight: 300;
+    margin-top: 0%;
+    margin-left: 30px;
+}
+
+
+ul {
+    font-weight: 300;
+    font-size: smaller;
+    margin-left: 10%;
+}
+
+.part {
+    width: 200%;
+    height: 30px;
+    background-color: #D8D7D7;
+}
+
+.paille {
+    display: flex;
+    align-items: center;
+}
+#paille {
+    float: left;
+    width: 60px;
+    margin-right: 20px;
+}
+
+.agrial {
+    display: flex;
+    align-items: center;
+}
+#agrial {
+    float: left;
+    width: 80px;
+}
+
+.origen{
+    display: flex;
+    align-items: center;
+}
+#origen{
+    float: left;
+    width: 80px;
+    margin-right: 10px;
+}
+
+.woof{
+    display: flex;
+    align-items: center;
+}
+#woof{
+    float: left;
+    width: 60px;
+    margin-right: 10px;
+}
+
+
+
+#exp {
+    border-color: red;
+}
