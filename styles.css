@@ -1,27 +1,28 @@
-body {
-    background-color: white;
+.container {
+    border: solid;
 }
 
+.name {
+    margin-left: 50px;
+}
 
+.bg-primary {    
+    background-color: #5271FF;
+}
 
 /* Sidebar */
 
 .sidebar  {
     max-width: 300px;
-    float: left;
+    
 }
 
 .top-sidebar {
-    border: solid #5271FF 1px;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
     height: 10%;
-    width: 100%;
     background-color: #5271FF;
     padding-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 .top-sidebar > img {
@@ -33,21 +34,20 @@ body {
 .sidebar- {
     border: solid #5271FF 1px;
     background-color: #5271FF;
-    width: 100%;
-    height: 100%;
+    height: 700px;
 }
 
 .sidebar h2 {
     font-family: 'Open Sans', sans-serif;
     display: flex;
     justify-content: center;
-    color: white;
     font-size: 100%;
     font-weight: 600;
 }
 
 .txt-sidebar2 {
     margin-bottom: 8%;
+    color: white;
 }
 
 .sidebar p{
@@ -192,47 +192,56 @@ ul {
     background-color: #D8D7D7;
 }
 
-.paille {
-    display: flex;
-    align-items: center;
-}
+
 #paille {
-    float: left;
     width: 60px;
     margin-right: 20px;
 }
-
-.agrial {
-    display: flex;
-    align-items: center;
+.paille-liste1 {
+    margin-right: 50px;
 }
+
 #agrial {
-    float: left;
     width: 80px;
+    margin-right: 20px;
 }
 
-.origen{
-    display: flex;
-    align-items: center;
-}
+
 #origen{
-    float: left;
     width: 80px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
-.woof{
-    display: flex;
-    align-items: center;
-}
+
 #woof{
-    float: left;
     width: 60px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 
 
 #exp {
     border-color: red;
+}
+
+#la-manu {
+    width: 20%;
+    margin-right: 20px;
+}
+
+#mds {
+    width: 20%;
+    margin-right: 20px;
+}
+#scholar {
+    width: 20%;
+    margin-right: 20px;
+}
+
+.diplome {
+ list-style: disclosure-closed;   
+}
+
+.title-list {
+    list-style: none;
 }
