@@ -137,13 +137,11 @@ h3 {
 .custom-list {
     font-weight: 300;
     font-size: smaller;
-    margin-left: 10%;
 }
 
 .custom-list1 {
     font-weight: 300;
     font-size: smaller;
-    margin-left: 10%;
 }
 
 .part {
@@ -199,4 +197,5 @@ h3 {
 
 .diplome {
     list-style: disclosure-closed;
+    font-weight: 300;
 }
